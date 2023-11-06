@@ -1,0 +1,54 @@
+.Home{
+    height: 100vh;
+    width: 98.9vw;
+    background-color: rgb(156, 170, 187);
+    margin-top: -4vh;
+    display: flex;
+    flex-direction: column;
+}
+.HomeO{
+    height: 20%;
+    width: 100%;
+    background-color: rgb(38, 73, 38);
+}
+.HomeT{
+    height: 80%;
+    width: 100%;
+    background-color: rgb(73, 38, 71);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.HomeTO{
+    height: 70%;
+    width: 40%;
+    background-color: red;
+}
+.HomeTT{
+    height: 70%;
+    width: 40%; 
+    background-color: rgb(0, 255, 183); 
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+
+}
+.women{
+    height: 300px;
+    width: 200px;
+    background-image: url('./images/young-indian-woman-wearing-sari\ \(3\).jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 6rem;
+}
+.men{
+    height: 200px;
+    width: 170px;
+    background-image: url('https://www.frontierraas.com/pub/media/catalog/product/cache/3d090360afc6722f79f7ab5767a6bc73/f/r/fr12135269_3_.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5rem;
+}
